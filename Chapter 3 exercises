@@ -1,0 +1,146 @@
+# Exercise 1
+
+day = int(input("Enter the number of your day:"))
+
+if day == 0:
+   print("Sunday")
+if day == 1:
+   print("Monday")
+if day == 2:
+   print("Tuesday")
+if day == 3:
+   print("Wednesday")
+if day == 4:
+   print("Thursday")
+if day == 5:
+   print("Friday")
+if day == 6:
+   print("Saturday")
+   
+   
+   
+   
+# Exercise 2
+day = int(input("Enter the number of your day:"))
+
+if day == 0:
+   print("Sunday")
+if day == 1:
+   print("Monday")
+if day == 2:
+   print("Tuesday")
+if day == 3:
+   print("Wednesday")
+if day == 4:
+   print("Thursday")
+if day == 5:
+   print("Friday")
+if day == 6:
+   print("Saturday")
+   
+length_of_stay = int(input("How many days are you staying?"))
+return_day = day + (length_of_stay % 7)
+
+if length_of_stay > 150:
+   new_Answer = (length_of_stay % 150) 
+if length_of_stay % 150 == 0:
+   print((length_of_stay % 150) + 3)
+print(new_Answer)
+if return_day == 0:
+   print("Sunday")
+if return_day == 1:
+   print("Monday")
+if return_day == 2:
+   print("Tuesday")
+if return_day == 3:
+   print("Wednesday")
+if return_day == 4:
+   print("Thursday")
+if return_day == 5:
+   print("Friday")
+if return_day == 6:
+   print("Saturday")
+print(return_day)
+
+
+
+# Exercise 3
+# 3. 1. a <= b
+# 3. 2. a < b
+# 3. 3. a < 18 and day != 3
+# 3. 4. a < 18 and day == 3
+
+# Exercise 4
+# 4. 1. True
+# 4. 2. False
+# 4. 3. False
+# 4. 4. True
+
+# Exercise 5
+# 5. 1. True
+# 5. 2. False
+# 5. 3. False
+# 5. 4. False
+# 5. 5. False
+# 5. 6. False
+# 5. 7. True
+# 5. 8. True
+
+
+# Exercise 6
+numbers = [83, 75, 74.9, 70, 69.9, 65, 60, 59.9, 55, 50,
+49.9, 45, 44.9, 40, 39.9, 2, 0]
+
+n = int(input("Enter your grade:"))
+if n >= 75:
+   print("First")
+if n >= 70 and n <= 75:
+   print("Upper second")
+if n >= 60 and n <= 70:
+   print("Second")
+if n >= 50 and n <= 60:
+   print("Third")
+if n >= 45 and n <= 50:
+   print("F1 Supp")
+if n >= 40 and n <= 45:
+   print("F2")
+if n < 40:
+   print("F3")
+   
+   
+
+
+# Exercise 7
+a = int(input("Enter the first leg length:"))
+b = int(input("Enter the second leg length:"))
+c = a ** 2 + b ** 2 
+print(c ** 0.5)
+
+
+# Exercise 8
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
+if a ** 2 + b ** 2 == c ** 2:
+   print("The triangle is a right triangle!")
+else:
+   print("This triangle is not a right triangle.")
+   
+
+# Exercise 9
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
+if a ** 2 + b ** 2 == c ** 2 or b ** 2 + a ** 2 == c ** 2 or a ** 2 + c ** 2 == b ** 2 or c ** 2 + a ** 2 == b ** 2 or b ** 2 + c ** 2 == a ** 2 or c ** 2 + b ** 2 == a ** 2:
+   print("The triangle is a right triangle!")
+else:
+   print("This triangle is not a right triangle.")
+   
+ # Exercise 10
+ # 10. 1. for i in range(1001):
+              print("We like python's turtles!")
+ # 10. 2. 
+
+
+
+
