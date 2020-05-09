@@ -1,0 +1,67 @@
+# Chapter 2 Exercises
+
+# Exercise 1
+a = "All "
+b = ' work'
+c = ' and'
+d = ' no'
+e = ' play'
+f = ' makes'
+g = ' Jack'
+h = ' a'
+i = ' dull'
+j = ' boy'
+
+Answer = a+b+c+d+e+f+g+h+i+j
+print(Answer)
+
+
+# Exercise 2
+6 * (1-2)
+
+
+# Exercise 3
+# Nothing! A comment does not affect the code at all! It just guides the reader what each line is supposed to do.
+
+
+# Exercise 4
+bruce = 6
+print(bruce + 4)
+
+
+# Exercise 5
+# Calculates final amount using compound interest formula
+
+P = float(input("Enter the initial amount:"))
+r = float(input("Enter the annual interest rate as a decimal:"))
+
+n = int(input("Enter the amount of times the interest is compounded per year:"))
+
+t = int(input("Enter the number of years:"))
+
+Amount = P * (1 + r/n) ** n * t
+print(Amount)
+
+
+# Exercise 6
+Invalid syntax, because the answer is undefined. Any number divided by 0 is undefined, and so is its remainder
+
+# Exercise 7
+
+# Code that prints 51 hours from 2:00
+
+remaining_hours = 51 % 12
+
+Answer = remaining_hours + 2
+
+print("The answer is " + str(Answer) + " o'clock")
+
+
+# Exercise 8
+hour = int(input("Enter the hour:"))
+hours_to_add = int(input("Enter the number of hours to add:"))
+if hours_to_add >= 12:
+   new_time = hour + (hours_to_add % 12)
+else:
+   new_time = hour + hours_to_add
+print(new_time)
