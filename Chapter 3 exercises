@@ -139,7 +139,9 @@ else:
  # Exercise 10
  # 10. 1. for i in range(1001):
               print("We like python's turtles!")
- # 10. 2. 
+ # 10. 2. list = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+for i in range(len(list)):
+    print("One of the months of the year is " + str(list[i]))
 
 
 
