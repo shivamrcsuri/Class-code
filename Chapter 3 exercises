@@ -213,4 +213,29 @@ alex.forward(60)
 wn.mainloop()
 
 
+# 10.5.4 
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("blue")
+alex = turtle.Turtle()
+alex.fillcolor("green")
+alex.color("red")
+
+
+alex.forward(60)
+alex.left(50)
+alex.forward(60)
+alex.left(40)
+alex.forward(60)
+alex.left(40)
+alex.forward(60)
+alex.left(50)
+alex.forward(60)
+alex.left(50)
+alex.forward(60)
+alex.left(40)
+alex.forward(60)
+alex.left(40)
+alex.forward(60)
+
 
