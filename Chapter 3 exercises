@@ -239,3 +239,115 @@ alex.left(40)
 alex.forward(60)
 
 
+# 10. 6. 
+import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+alex.left(160)
+alex.forward(100)
+alex.right(43)
+alex.forward(100)
+alex.left(270)
+alex.forward(100)
+alex.right(97)
+alex.forward(100)
+alex.right(43)
+alex.forward(100)
+alex.left(200)
+alex.forward(100)
+alex.right(940)
+alex.forward(100)
+alex.left(17)
+alex.forward(100)
+alex.right(86)
+
+# 10.7. the drunken pirate is headed left, as shown below:
+import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+alex.left(160)
+alex.forward(100)
+alex.right(43)
+alex.forward(100)
+alex.left(270)
+alex.forward(100)
+alex.right(97)
+alex.forward(100)
+alex.right(43)
+alex.forward(100)
+alex.left(200)
+alex.forward(100)
+alex.right(940)
+alex.forward(100)
+alex.left(17)
+alex.forward(100)
+alex.right(86)
+alex.forward(100)
+
+# 10.8. 160 degrees 
+
+
+# 10.9. I THINK= I think this line of code will create a window/screen for the graphics to happen. Turns out, I was right. I have 1 point.
+       I THINK = I think this line of code will create the cursor that draws everything. Turns out, I was right. I have 2 points.
+       I THINK = I think this line of code will turn the turtle right 90 degrees. Turns out, I was right. I have 3 points.
+       I THINK = I think this line of code will turn the turtle left 3600 degrees. Turns out, I was right. I have 4 points.
+       I THINK = I think this line of code will turn the turtle left 90 degrees. Turns out, I was right. I have 5 points.
+       I THINK = I think this line of code will increase the speed that the cursor is moving. Turns out, I was right. I have 6 points.
+       I THINK =  I think this line of code will turn the turtle left 3600 degrees. Turns out, I was right. I have 7 points.
+       I THINK = I think this line of code doesn't do anything. Turns out, I was right. I have 8 points.
+       I THINK = I think this line of code will turn the turtle left 3645 degrees. Turns out, I was right. I had 9 points.
+       I THINK = I think this line of code will make the turtle go backward 100 steps. Turns out, I was right. I have 10 points.
+       
+# 10. 10. 
+import turtle
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+alex.left(70)
+alex.forward(60)
+alex.right(130)
+alex.forward(63)
+alex.right(145)
+alex.forward(60)
+alex.right(144)
+alex.forward(50)
+alex.right(150)
+alex.forward(62)
+
+
+
+
+
+# 11. 
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("light green")
+alex = turtle.Turtle()
+alex.shape("turtle")
+alex.fillcolor("blue")
+
+
+alex.penup()
+for i in range(12):
+    alex.forward(100)
+    alex.stamp()
+    alex.backward(100)
+    alex.left(30)
+
+wn.mainloop()
+
+# 12. 1. 
+List = [1,2,3,4,5,6,7,8] 
+  
+listCount = 0
+for num in List:  
+    if num % 2 == 1: 
+       listCount += 1
+          
+print("The number of odd numbers in the list are " + str(listCount))
+
+# 12.2.
+
+
