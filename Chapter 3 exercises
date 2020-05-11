@@ -348,6 +348,83 @@ for num in List:
           
 print("The number of odd numbers in the list are " + str(listCount))
 
-# 12.2.
+# 12.2. 
+List = [1,2,3,4,5,6,7,8]
+Answer = List[1] + List[3] + List[5] + List[7]
+print(Answer)
 
+# 12.3. 
+List = [1,-2,3,-4,5,-6,7,-8]
+Answer = List[1] + List[3] + List[5] + List[7]
+print(Answer)
+
+# 12.4. 
+List = ['Bob', 'Samuel', 'Jeremy', 'David']
+for i in range(len(List)):
+    if len(List[i]) == 5:
+       print(List[i])
+    else:
+       print("none")
+       
+# 12.5. 
+  List = [3,1,5,4,1,7,1,9,2]
+for i in range(len(List) -1):
+    if List[i] % 2 == 0:
+       print(sum(List[:i]))
+
+
+# 12.6. 
+List = ['Bob', 'John', 'Caleb']
+count = 0
+if 'Sam' in List:
+    count += 1
+else:
+    count = 0
+      
+    print(count)
+        
+
+# 12.7. 
+# better = (approximation + n/approximation)/2
+num = float(input("Enter a number:"))
+Answer = (num ** 0.5) + int(num/num** 0.5)/2
+print(Answer)
+
+# 12.8. 
+n = int(input("Enter an integer:"))
+Answer = n * (n+1)/2
+print(Answer)
+
+# 12.9. 
+def prime_number(n):
+    factors = []
+    for i in range(1, n+1):
+        if n % i == 0:
+           factors = i
+           print(factors)
+           if factors == [1,n] or factors == [n,1]:
+              print("True")
+           else:
+              print("False")
+print(prime_number(12))   
+
+# 12.10. 
+import turtle
+wn = turtle.Screen()
+tess = turtle.Turtle()
+
+tess.left(160)
+tess.forward(20)
+tess.right(43)
+tess.forward(10)
+tess.left(270)
+tess.forward(8)
+tess.right(43)
+tess.forward(12)
+wn.mainloop()
+
+# 12.11. 
+   
+       
+  
 
