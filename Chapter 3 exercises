@@ -479,12 +479,12 @@ print(count)
 
 
 # 12.14. 
-def square_sum(l):
-  cumsum = 0
-  for i in l:
-      sqnum = i ** 2
-      cumsum = cumsum + sqnum
-  print(cumsum)
+def square_sum(List):
+  Sum = 0
+  for i in List:
+      square_num = i ** 2
+      Sum = Sum + square_num
+  print(Sum)
 
 # Test cases
 print(square_sum([3,4,5]))
