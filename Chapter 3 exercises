@@ -2,6 +2,7 @@
 
 day = int(input("Enter the number of your day:"))
 
+
 if day == 0:
    print("Sunday")
 if day == 1:
@@ -16,6 +17,9 @@ if day == 5:
    print("Friday")
 if day == 6:
    print("Saturday")
+if day > 6 or day < 0:
+   print("Invalid input")
+   
    
    
    
@@ -67,23 +71,23 @@ print(return_day)
 # Exercise 3
 # 3. 1. a <= b
 # 3. 2. a < b
-# 3. 3. a < 18 and day != 3
-# 3. 4. a < 18 and day == 3
+# 3. 3. a < 18 or day != 3
+# 3. 4. a < 18 or day == 3
 
 # Exercise 4
 # 4. 1. True
 # 4. 2. False
 # 4. 3. False
-# 4. 4. True
+# 4. 4. False
 
 # Exercise 5
 # 5. 1. True
-# 5. 2. False
-# 5. 3. False
-# 5. 4. False
-# 5. 5. False
-# 5. 6. False
-# 5. 7. True
+# 5. 2. True
+# 5. 3. True
+# 5. 4. True
+# 5. 5. True
+# 5. 6. True
+# 5. 7. False
 # 5. 8. True
 
 
@@ -460,6 +464,14 @@ print("The number has " + str(digits) + " digit/(s)")
 
 
 # 12.13. 
+n = int(input("Enter a positive integer:"))
+count = 0
+while n > 0:
+      remainder = n % 10
+      if remainder % 2 == 0:
+         count += 1
+      n = int(n/10)
+print(count)
 
 
 
@@ -467,11 +479,16 @@ print("The number has " + str(digits) + " digit/(s)")
 
 
 # 12.14. 
-numbers = [2,3,4,5]
-for i in range(len(numbers)):
-    Answer = numbers[i] ** 2
-    Answer = [4,9,16,25]
-print(sum(Answer))
+def square_sum(l):
+  cumsum = 0
+  for i in l:
+      sqnum = i ** 2
+      cumsum = cumsum + sqnum
+  print(cumsum)
+
+# Test cases
+print(square_sum([3,4,5]))
+print(square_sum([1,2,3,4]))
        
   
 
